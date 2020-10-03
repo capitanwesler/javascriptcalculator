@@ -1,0 +1,47 @@
+/* This is the CSS for each Square */
+
+#board-container {
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+    border: 3px solid rgb(148, 148, 148);
+}
+
+.buttonNumber {
+    padding: 30px 0;
+    font-size: 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: background-color 200ms ease;
+}
+
+.buttonNumber:hover {
+    background-color: rgb(206, 135, 4);
+}
+
+.buttonAC {
+    background-color: rgb(165, 165, 165);
+    border: none;
+    font-size: 30px;
+    color: white;
+    transition: background-color 200ms ease;
+}
+
+.buttonAC:hover {
+    background-color:  rgb(128, 128, 128);
+}
+
+.operationButton {
+    padding: 20px 54px;
+    font-size: 30px;
+    background-color: rgb(46, 116, 163);
+    border: none;
+    color: white;
+    transition: background-color 200ms ease;
+}
+
+.operationButton:hover {
+    background-color: rgb(39, 96, 134);
+}

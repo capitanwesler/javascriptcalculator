@@ -1,0 +1,32 @@
+/* This is the main CSS for the board of the calculator */
+
+#board-container {
+    width: 500px;
+    padding: 10px;
+    background-color: black;
+    border: 3px solid rgb(148, 148, 148);
+}
+
+#numbers-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3px;
+}
+
+#operation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#output-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+}
+
+#output-container span {
+    color: orange;
+    font-size: 50px;
+    overflow: hidden;
+}

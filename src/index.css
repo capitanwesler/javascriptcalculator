@@ -1,0 +1,28 @@
+/* Main CSS for the application */
+
+/* Resets for some elements */
+
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #c2c2d6;
+}
+
+#main-container {
+    margin: 150px auto;
+}
+
+#designed {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#designed span {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
